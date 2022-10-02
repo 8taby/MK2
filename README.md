@@ -79,7 +79,9 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
 
 ## Version
 
-### v0.1.0 [2022.09.30]
+### v0.1.0
+
+#### 30 Sep 2022
 
 - [Material Kit 2 by Creative Tim](https://github.com/creativetimofficial/material-kit)을 티스토리 스킨 형식에 맞게 수정했습니다.
 - 일부 링크를 수정했습니다.
@@ -131,7 +133,6 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
 
 - 일부 이미지 파일의 경로가 `./images...`로 되어 있는 것을 `./images/...`로 수정했습니다.
 - 홈 화면의 본문 섹션 내에 글을 작성할 수 있는 공간을 만들었습니다.
-- 
 
 ## Contributer
 
@@ -155,4 +156,4 @@ MK2 스킨 개발에 기여해 주실 분을 찾습니다.
 
 ## Next
 
-**MK2** 스킨의 v1 Release 개발을 완료한 뒤에는 [Soft UI Design System](https://www.creative-tim.com/product/soft-ui-design-system)을 이용한 티스토리 스킨을 만들어 볼 예정입니다.
+**MK2** 스킨의 _v1 Release_ 개발을 완료한 뒤에는 [Soft UI Design System](https://www.creative-tim.com/product/soft-ui-design-system)을 이용한 티스토리 스킨을 만들어 볼 예정입니다.
