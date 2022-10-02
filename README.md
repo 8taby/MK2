@@ -13,9 +13,9 @@
 
 ## Example
 
-![Acta non Verba](https://user-images.githubusercontent.com/97948617/193414099-fac9e61d-0f55-424e-b6cf-8574f5f43e28.png)
+![image](https://user-images.githubusercontent.com/97948617/193433972-bd9c1fb8-65ec-473f-96d9-49889b54b28f.png)
 
-[Acta non Verba](https://acta-non-verba.tistory.com/) by a-nv에서 적용된 모습을 확인하실 수 있습니다. (v0.2.1)
+[Acta non Verba by a-nv](https://acta-non-verba.tistory.com/)에서 적용된 모습을 확인하실 수 있습니다. (v0.2.3)
 
 ## Structure
 
@@ -125,6 +125,14 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
     - 티스토리 매니저 페이지로 가기
 - 네비게이션 바의 깃허브 버튼에 호버링할 때 타이틀 문구가 바뀌었습니다.
 
+### v0.2.3
+
+#### 2 Oct 2022
+
+- 일부 이미지 파일의 경로가 `./images...`로 되어 있는 것을 `./images/...`로 수정했습니다.
+- 홈 화면의 본문 섹션 내에 글을 작성할 수 있는 공간을 만들었습니다.
+- 
+
 ## Contributer
 
 MK2 스킨 개발에 기여해 주실 분을 찾습니다.
@@ -144,3 +152,7 @@ MK2 스킨 개발에 기여해 주실 분을 찾습니다.
 - 이미지 파일 변경
 - 저작권 표시 수정
 - HTML 문서와 CSS 파일 재개발
+
+## Next
+
+**MK2** 스킨의 v1 Release 개발을 완료한 뒤에는 [Soft UI Design System](https://www.creative-tim.com/product/soft-ui-design-system)을 이용한 티스토리 스킨을 만들어 볼 예정입니다.
