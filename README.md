@@ -19,18 +19,18 @@
 
 ## Structure
 
-    SKIN ─┬─ index.xml
-          ├─ skin.html
-          ├─ style.css
-          ├─ preview.gif
-          ├─ preview256.jpg
-          ├─ preview560.jpg
-          ├─ preview1600.jpg
-          └─ images ─┬─ script.js
-                     ├─ bootstrap.bundle.min.js
-                     ├─ background.jpg
-                     ├─ background.jpg
-                     └─ background.jpg
+    SKIN ┬ index.xml
+         ├ skin.html
+         ├ style.css
+         ├ preview.gif
+         ├ preview256.jpg
+         ├ preview560.jpg
+         ├ preview1600.jpg
+         └ images ┬ script.js
+                   ├ bootstrap.bundle.min.js
+                   ├ background.jpg
+                   ├ background.jpg
+                   └ background.jpg
 
 ### index.xml
 
