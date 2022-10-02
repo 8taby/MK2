@@ -101,7 +101,7 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
 - Creative Tim으로 연결되는 일부 링크를 수정했습니다.
 - Tistory의 css 용량 제한 문제를 해결했습니다.
 
-        🤔 [이곳](https://www.websiteplanet.com/ko/webtools/jscssminifier/)에서 용량을 줄일 수 있습니다.
+    🤔 [이곳](https://www.websiteplanet.com/ko/webtools/jscssminifier/)에서 용량을 줄일 수 있습니다.
 
 - 구독 버튼을 생성했습니다.(네비게이션 바 오른쪽)
 - Tistory 기본 홈 버튼과 구독 버튼을 삭제했습니다.
