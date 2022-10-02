@@ -15,7 +15,24 @@
 
 ![Acta non Verba](https://user-images.githubusercontent.com/97948617/193414099-fac9e61d-0f55-424e-b6cf-8574f5f43e28.png)
 
-[Acta non Verba](https://acta-non-verba.tistory.com/) by a-nv에서 적용된 모습을 확인하실 수 있습니다. (
+[Acta non Verba](https://acta-non-verba.tistory.com/) by a-nv에서 적용된 모습을 확인하실 수 있습니다. (v0.2.1)
+
+## Structure
+
+    SKIN ─┬─ index.xml
+          ├─ skin.html
+          ├─ style.css
+          ├─ preview.gif
+          ├─ preview256.jpg
+          ├─ preview560.jpg
+          ├─ preview1600.jpg
+          └─ images ─┬─ script.js
+                     ├─ bootstrap.bundle.min.js
+                     ├─ background.jpg
+                     ├─ background.jpg
+                     └─ background.jpg
+
+
 
 ## Download
 
@@ -28,22 +45,6 @@
 MK2에서는 Apple 기기에서의 시스템 설정과 비슷한 사용자 경험을 모든 이용자에게 제공하기 위해 [Pretendard](https://github.com/orioncactus/pretendard) 폰트를 사용하고 있습니다. `style.css` 파일에서 `font-family`를 변경하실 수 있습니다.
 
 개발 중 가변 웨이트를 지원하기 위해 `"Pretendard Variable"` 폰트로 변경할 예정입니다.
-
-### TODO
-
-- font-family `"Pretendard Variable"`로 변경
-- 스킨 세부 지정
-    - [x]  홈
-    - [ ]  글
-    - [ ]  카테고리
-    - [ ]  태그
-    - [ ]  위치로그
-    - [ ]  방명록
-- 모바일에서 사용자 경험이 저하되는 문제 해결
-- 모든 링크 수정
-- 이미지 파일 변경
-- 저작권 표시 수정
-- HTML 문서와 CSS 파일 재개발
 
 ## License
 
@@ -63,24 +64,61 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
 - 일부 링크 수정
 - font-family [Pretendard](https://github.com/orioncactus/pretendard)로 변경
 
-### v0.1.1 [2022.10.01]
+### v0.1.1
+
+#### 30 Sep 2022
 
     ⚠️ 이 버전은 Release되어 있지 않습니다.
 
 - footer와 body의 section이 제대로 분리되지 않는 문제 수정
 
-### v0.2.0 [2022.10.01]
+### v0.2.0
+
+#### 1 Oct 2022
 
 - **Tistory의 공통치환자를 적용**
-- 일부 링크 수정
-- css 용량 제한 해결(다만 적용하기 전 용량 축소 필요)
-- 구독 버튼 생성
-- Tistory 기본 홈 버튼과 구독 버튼 삭제
+- Creative Tim으로 연결되는 일부 링크를 수정했습니다.
+- Tistory의 css 용량 제한 문제를 해결했습니다.
 
-### v0.2.1 [2022.10.01]
+        🤔 [이곳](https://www.websiteplanet.com/ko/webtools/jscssminifier/)에서 용량을 줄일 수 있습니다.
 
-- preview.png 파일 세트를 업로드
+- 구독 버튼을 생성했습니다.(네비게이션 바 오른쪽)
+- Tistory 기본 홈 버튼과 구독 버튼을 삭제했습니다.
+
+### v0.2.1
+
+#### 1 Oct 2022
+
+- preview.png 파일 세트를 업로드했습니다.
+
+### v0.2.2
+
+#### 2 Oct 2022
+
+- preview.jpg 파일 세트였습니다. 앞으로는 확장자를 잘 보도록 하겠습니다.
+- .js 파일의 저장 위치를 `./assets/js/...`에서 `./images/...`로 변경했습니다.
+- 네비게이션 바에 Tistory 메뉴바의 기능을 일부 적용했습니다.
+    - 티스토리 홈으로 돌아가기
+    - 티스토리 스토리 페이지로 가기
+    - 티스토리 포럼으로 가기
+    - 티스토리 매니저 페이지로 가기
 
 ## Contributer
 
 MK2 스킨 개발에 기여해 주실 분을 찾습니다.
+
+### TODO
+
+- font-family `"Pretendard Variable"`로 변경
+- 스킨 세부 지정
+    - [x]  홈
+    - [ ]  글
+    - [ ]  카테고리
+    - [ ]  태그
+    - [ ]  위치로그
+    - [ ]  방명록
+- 모바일에서 사용자 경험이 저하되는 문제 해결
+- 모든 링크 수정
+- 이미지 파일 변경
+- 저작권 표시 수정
+- HTML 문서와 CSS 파일 재개발
