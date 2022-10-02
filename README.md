@@ -81,9 +81,9 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
 
 ### v0.1.0 [2022.09.30]
 
-- [Material Kit 2 by Creative Tim](https://github.com/creativetimofficial/material-kit)을 티스토리 스킨 형식에 맞게 수정
-- 일부 링크 수정
-- font-family [Pretendard](https://github.com/orioncactus/pretendard)로 변경
+- [Material Kit 2 by Creative Tim](https://github.com/creativetimofficial/material-kit)을 티스토리 스킨 형식에 맞게 수정했습니다.
+- 일부 링크를 수정했습니다.
+- font-family [Pretendard](https://github.com/orioncactus/pretendard)로 변경했습니다.
 
 ### v0.1.1
 
@@ -97,7 +97,7 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
 
 #### 1 Oct 2022
 
-- **Tistory의 공통치환자를 적용**
+- **Tistory의 공통치환자를 적용했습니다.**
 - Creative Tim으로 연결되는 일부 링크를 수정했습니다.
 - Tistory의 css 용량 제한 문제를 해결했습니다.
 
