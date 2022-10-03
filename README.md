@@ -27,10 +27,10 @@
          ├ preview560.jpg
          ├ preview1600.jpg
          └ images ┬ script.js
-                   ├ bootstrap.bundle.min.js
-                   ├ background.jpg
-                   ├ background.jpg
-                   └ background.jpg
+                  ├ bootstrap.bundle.min.js
+                  ├ background.jpg
+                  ├ background.jpg
+                  └ background.jpg
 
 ### index.xml
 
@@ -133,6 +133,12 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
 
 - 일부 이미지 파일의 경로가 `./images...`로 되어 있는 것을 `./images/...`로 수정했습니다.
 - 홈 화면의 본문 섹션 내에 글을 작성할 수 있는 공간을 만들었습니다.
+
+### v0.2.4
+
+#### 3 Oct 2022
+
+- 
 
 ## Contributer
 
