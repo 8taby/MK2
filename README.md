@@ -14,10 +14,10 @@
 ## Example
 
 ![image](https://user-images.githubusercontent.com/97948617/193433972-bd9c1fb8-65ec-473f-96d9-49889b54b28f.png)
-[자세히 알아보기](readme.md#v023)
+v0.2.3 [자세히 알아보기](README.md#v023)
 
 ![image](https://user-images.githubusercontent.com/97948617/193627687-0644c52a-544d-4318-b9cf-76f4e5898bd1.png)
-[자세히 알아보기](readme.md#v030)
+v0.3.0 [자세히 알아보기](README.md#v030)
 
 [Acta non Verba by a-nv](https://acta-non-verba.tistory.com/)에서 적용된 모습을 확인하실 수 있습니다.
 
