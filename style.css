@@ -27646,3 +27646,7 @@
   .btn_subsc_my {
     display: inline-block !important;
   }
+ 
+  .scrollbar::-webkit-scrollbar {
+    display: none !important;
+  }
