@@ -45,13 +45,13 @@
                             <li class="nav-item dropdown dropdown-hover mx-2">
                             <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
-                                Pages
+                                Tistory
                                 <img src="./images/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
                             </a>
                             <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
                                 <div class="d-none d-lg-block">
                                 <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
-                                    Tistory Pages
+                                    Pages
                                 </h6>
                                 <a href="https://www.tistory.com" class="dropdown-item border-radius-md">
                                     <span>Tistory Home</span>
@@ -74,7 +74,7 @@
 
                                 <div class="d-lg-none">
                                 <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
-                                    Tistory Pages
+                                    Pages
                                 </h6>
 
                                 <a href="https://www.tistory.com" class="dropdown-item border-radius-md">
@@ -423,14 +423,16 @@
                             </ul>
                             </li>
                             <li class="nav-item ms-lg-auto">
-                            <a class="nav-link nav-link-icon me-2" href="https://github.com/8taby/skin" target="_blank">
+                            <a class="nav-link nav-link-icon me-2" href="https://github.com/8taby/MK2" target="_blank">
                                 <i class="fa fa-github me-1"></i>
                                 <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Star me on Github">Github</p>
                             </a>
                             </li>
                             <li class="nav-item my-auto ms-3 ms-lg-0">
                             
-                            <a class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0 btn_menu_toolbar btn_subscription btn_subsc_my #subscribe" data-blog-id="5674878" data-url="https://acta-non-verba.tistory.com" data-device="web_pc">Subscribe</a>
+                            <a class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0 btn_menu_toolbar btn_subscription btn_subsc_my #subscribe" data-blog-id="5674878" data-url="https://acta-non-verba.tistory.com" data-device="web_pc">
+                              <i class="material-icons opacity-10 me-1 text-md">star</i>
+                              Subscribe</a>
                             
                             </li>
                         </ul>
@@ -454,6 +456,34 @@
             </div>
         </header>
         
+        <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-7">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 mx-auto position-relative">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                  </ol>
+                </nav>
+              </div>
+              <s_search>
+              <div class="col-md-4 mx-auto">
+                <div class="input-group input-group-outline mb-4">
+                  <label class="form-label">Search in this blog</label>
+                  <input class="form-control" type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }">
+                </div>
+              </div>
+              <div class="col-md-1 mx-auto">
+                <button type="button" class="submit btn bg-gradient-secondary w-auto me-0" onclick="[##_search_onclick_submit_##]">
+                  <i class="material-icons opacity-10 me-0 text-md">search</i>
+                </button>
+              </div>
+              </s_search>
+            </div>
+          </div>
+        </div>
+
+        <s_article_rep>
         <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
         
         <section class="pt-3 pb-4" id="count-stats">
@@ -567,7 +597,7 @@
             </div>
           </div>
         </section>
-        
+
         <section class="my-5 py-5">
             <div class="container">
             <div class="row align-items-center">
@@ -2165,6 +2195,7 @@
         </div>
     </div>
     </div>
+  </s_article_rep>
 </footer>
 
 <!--   Core JS Files   -->
@@ -2246,4 +2277,13 @@
     };
     }
 </script>
+<!-- url after-? delete Code Start -->
+<script type="text/javascript">
+  if (typeof(history.pushState) == 'function') {
+      var CatagoryURL = location.href;
+      CatagoryURL = CatagoryURL.replace(/\?category=([0-9]+)/ig, '');
+      history.pushState(null, null, CatagoryURL);
+  }
+</script>
+<!-- url after-? delete Code End -->
 </html>
