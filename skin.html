@@ -24,7 +24,7 @@
     <link id="pagestyle" href="./style.css" rel="stylesheet" />
 </head>
 <body class="index-page bg-gray-200 scrollbar">
-    <s_t3>
+  <s_t3>
         <!-- Navbar -->
         <div class="container position-sticky z-index-sticky top-0"><div class="row"><div class="col-12">
             <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
@@ -458,24 +458,17 @@
         
         <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-7">
           <div class="container">
-            <div class="row">
-              <div class="col-md-7 mx-auto position-relative">
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">Home</li>
-                  </ol>
-                </nav>
-              </div>
+            <div class="row justify-content-center">
               <s_search>
-              <div class="col-md-4 mx-auto">
-                <div class="input-group input-group-outline mb-4">
+              <div class="col-lg-10">
+                <div class="input-group input-group-outline mb-0">
                   <label class="form-label">Search in this blog</label>
                   <input class="form-control" type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }">
                 </div>
               </div>
-              <div class="col-md-1 mx-auto">
-                <button type="button" class="submit btn bg-gradient-secondary w-auto me-0" onclick="[##_search_onclick_submit_##]">
-                  <i class="material-icons opacity-10 me-0 text-md">search</i>
+              <div class="col-lg-2">
+                <button type="button" class="submit btn bg-gradient-secondary btn-icon mb-0" onclick="[##_search_onclick_submit_##]">
+                  <div class="mx-3"><i class="material-icons opacity-10 me-3 text-md" aria-hidden="true">search</i>Search</div>
                 </button>
               </div>
               </s_search>
@@ -483,1551 +476,279 @@
           </div>
         </div>
 
-        <s_article_rep>
-        <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-        
-        <section class="pt-3 pb-4" id="count-stats">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-9 mx-auto py-3">
+        <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-7">
+          <s_article_rep>
+            <section class="py-3 mt-1">
+              <div class="container">
+                <div class="row justify-space-between text-center py-2">
+                  <div class="col-12 mb-md-4">
+                    <span class="badge bg-gradient-primary">[##_article_rep_category_##]</span>
+                  </div>
+                  <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+                  <div class="category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a>에 관한 글 <span class="fw-bold">|</span> [##_article_rep_date_##]</div>
+                </div>
+              </div>
+            </section>
+            <section class="py-3 mt-1">
+              <div class="container">
                 <div class="row">
-                    <div class="col-md-4 position-relative">
-                    <div class="p-3 text-center">
-                        <h1 class="text-gradient text-primary"><span id="state1" countTo="72">0</span>+</h1>
-                        <h5 class="mt-3">Total Visitors</h5>
-                        <p class="text-sm font-weight-normal">From night to day, and from left to right, there would be someone to hear to you</p>
-                    </div>
-                    <hr class="vertical dark">
-                    </div>
-                    <div class="col-md-4 position-relative">
-                    <div class="p-3 text-center">
-                        <h1 class="text-gradient text-primary"> <span id="state2" countTo="15">0</span>+</h1>
-                        <h5 class="mt-3">Design Blocks</h5>
-                        <p class="text-sm font-weight-normal">Mix the sections, change the colors and unleash your creativity</p>
-                    </div>
-                    <hr class="vertical dark">
-                    </div>
-                    <div class="col-md-4">
-                    <div class="p-3 text-center">
-                        <h1 class="text-gradient text-primary" id="state3" countTo="4">0</h1>
-                        <h5 class="mt-3">Pages</h5>
-                        <p class="text-sm font-weight-normal">Save 3-4 weeks of work when you use our pre-made pages for your website</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section>
-        
-        <section class="py-3">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 mx-auto">
-                <div class="p-3 text-center mb-5">
-                  <div class="icon icon-shape icon-lg bg-gradient-primary shadow mx-auto">
-                    <i class="material-icons opacity-10">person</i>
+                  <div class="article col-8">
+                    [##_article_rep_desc_##]
                   </div>
-                  <h2 class="mt-3">Check out what&#39;s new</h2>
-                  <p>We get insulted by others, lose trust for those others. We get back freezes every winter</p>
                 </div>
               </div>
-            </div>
-            <div class="row mb-5">
-              <div class="col-lg-4 col-md-6">
-                <div class="card card-background align-items-start h-100">
-                  <div class="full-background" style="background-image: url(https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/beach.jpg)"></div>
-                  <div class="card-body text-center z-index-3">
-                    <p class="text-uppercase font-weight-bold opacity-8 text-xs mt-7">Landscape</p>
-                    <h4 class="text-white mb-1">Nature&#39;s Light</h4>
-                    <p class="text-white opacity-8">It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it.</p>
-                    <button class="btn btn-white btn-sm" type="button" name="button">Read More</button>
-                  </div>
-                  <span class="mask bg-gradient-primary border-radius-xl z-index-2 opacity-7"></span>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 d-flex flex-column">
-                <div class="card h-100 card-background align-items-start">
-                  <div class="full-background" style="background-image: url(&#39;https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/indian.jpg&#39;)"></div>
-                  <div class="card-body z-index-3">
-                    <i class="material-icons text-white text-3xl">import_contacts</i>
-                  </div>
-                  <div class="card-footer pb-3 pt-2 z-index-3">
-                    <h4 class="text-white mb-1 cursor-pointer">Cultural</h4>
-                    <p class="text-white text-xs font-weight-bolder text-uppercase opacity-7">257 spots</p>
-                  </div>
-                  <span class="mask bg-gradient-dark border-radius-xl z-index-2 opacity-6"></span>
-                </div>
-                <div class="card h-100 card-background mt-4 align-items-start">
-                  <div class="full-background" style="background-image: url(&#39;https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/greece.jpg&#39;)"></div>
-                  <div class="card-body z-index-3">
-                    <i class="material-icons text-white text-3xl">volunteer_activism</i>
-                  </div>
-                  <div class="card-footer pb-3 pt-2 z-index-3">
-                    <h4 class="text-white mb-1 cursor-pointer">Popularity</h4>
-                    <p class="text-white text-xs font-weight-bolder text-uppercase opacity-7">363 spots</p>
-                  </div>
-                  <span class="mask bg-gradient-dark border-radius-xl z-index-2 opacity-6"></span>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 d-flex flex-column">
-                <div class="card card-background align-items-start">
-                  <div class="full-background" style="background-image: url(&#39;https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/city.jpg&#39;)"></div>
-                  <div class="card-body z-index-3">
-                    <i class="material-icons text-white text-3xl">festival</i>
-                  </div>
-                  <div class="card-footer pb-3 pt-5 z-index-3">
-                    <h4 class="text-white mb-1 cursor-pointer">Modern Life</h4>
-                    <p class="text-white text-xs font-weight-bolder text-uppercase opacity-7">117 spots</p>
-                  </div>
-                  <span class="mask bg-gradient-dark border-radius-xl z-index-2 opacity-6"></span>
-                </div>
-                <div class="card card-background mt-4 align-items-start">
-                  <div class="full-background" style="background-image: url(&#39;https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/laught.jpg&#39;)"></div>
-                  <div class="card-body z-index-3">
-                    <i class="material-icons text-white text-3xl">theater_comedy</i>
-                  </div>
-                  <div class="card-footer pb-3 pt-2 z-index-3">
-                    <h4 class="text-white mb-1 cursor-pointer">Good Vibes</h4>
-                    <p class="text-white text-xs font-weight-bolder text-uppercase opacity-7">215 spots</p>
-                  </div>
-                  <span class="mask bg-gradient-dark border-radius-xl z-index-2 opacity-6"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+            </section>
+          </s_article_rep>
+        </div>
 
-        <section class="my-5 py-5">
-            <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
-                <div class="rotating-card-container">
-                    <div class="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5">
-                    <div class="front front-background" style="background-image: url(https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80); background-size: cover;">
-                        <div class="card-body py-7 text-center">
-                        <i class="material-icons text-white text-4xl my-3">touch_app</i>
-                        <h3 class="text-white">Feel the <br /> Material Kit</h3>
-                        <p class="text-white opacity-8">All the Bootstrap components that you need in a development have been re-design with the new look.</p>
-                        </div>
-                    </div>
-                    <div class="back back-background" style="background-image: url(https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1365&q=80); background-size: cover;">
-                        <div class="card-body pt-7 text-center">
-                        <h3 class="text-white">Discover More</h3>
-                        <p class="text-white opacity-8"> You will save a lot of time going from prototyping to full-functional code because all elements are implemented.</p>
-                        <a href=".//sections/page-sections/hero-sections.html" target="_blank" class="btn btn-white btn-sm w-50 mx-auto mt-3">Start with Headers</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-6 ms-auto">
-                <div class="row justify-content-start">
-                    <div class="col-md-6">
-                    <div class="info">
-                        <i class="material-icons text-gradient text-primary text-3xl">content_copy</i>
-                        <h5 class="font-weight-bolder mt-3">Full Documentation</h5>
-                        <p class="pe-5">Built by developers for developers. Check the foundation and you will find everything inside our documentation.</p>
-                    </div>
-                    </div>
-                    <div class="col-md-6">
-                    <div class="info">
-                        <i class="material-icons text-gradient text-primary text-3xl">flip_to_front</i>
-                        <h5 class="font-weight-bolder mt-3">Bootstrap 5 Ready</h5>
-                        <p class="pe-3">The world’s most popular front-end open source toolkit, featuring Sass variables and mixins.</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="row justify-content-start mt-5">
-                    <div class="col-md-6 mt-3">
-                    <i class="material-icons text-gradient text-primary text-3xl">price_change</i>
-                    <h5 class="font-weight-bolder mt-3">Save Time & Money</h5>
-                    <p class="pe-5">Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System.</p>
-                    </div>
-                    <div class="col-md-6 mt-3">
-                    <div class="info">
-                        <i class="material-icons text-gradient text-primary text-3xl">devices</i>
-                        <h5 class="font-weight-bolder mt-3">Fully Responsive</h5>
-                        <p class="pe-3">Regardless of the screen size, the website content will naturally fit the given resolution.</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
+        <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+          <s_list>
+            <div class="searchList">
+              <h3>'[##_list_conform_##]'에 해당되는 글 [##_list_count_##]건</h3>
+              <ol>
+                <s_list_rep>
+                <li>
+                  <span class="date">[##_list_rep_regdate_##]</span>
+                  <a href="[##_list_rep_link_##]">[##_list_rep_title_##]</a>
+                  <span class="cnt">[##_list_rep_rp_cnt_##]</span>
+                </li>
+                </s_list_rep>
+              </ol>
             </div>
+            </s_list>
+            
+            <s_rplist>
+            <div class="searchRplist">
+              <h3>'[##_rplist_conform_##]'에 해당되는 댓글 [##_rplist_count_##]건</h3>
+              <ol>
+                <s_rplist_rep>
+                <li>
+                  <span class="date">[##_rplist_rep_regdate_##]</span>
+                  <a href="[##_rplist_rep_link_##]">[##_rplist_rep_body_##]</a>
+                  <span class="cnt">[##_rplist_rep_rp_cnt_##]</span>
+                  <span class="name">[##_rplist_rep_name_##]</span>
+                </li>
+                </s_rplist_rep>
+              </ol>
             </div>
-        </section>
-        
-        
-        <section class="my-5 py-5">
-        <div class="container">
-            <div class="row">
-            <div class="row justify-content-center text-center my-sm-5">
-                <div class="col-lg-6">
-                <span class="badge bg-primary mb-3">Infinite combinations</span>
-                <h2 class="text-dark mb-0">Huge collection of sections</h2>
-                <p class="lead">We have created multiple options for you to put together and customise into pixel perfect pages. </p>
-                </div>
+            </s_rplist>
+            
+            <s_local>
+            <div class="localog">
+              <h3>위치로그</h3>
+              <s_local_spot_rep>
+              <div class="spot" style="margin-left: [##_local_spot_depth_##]px">
+                [##_local_spot_##]
+              </div>
+              </s_local_spot_rep>
+              <s_local_info_rep>
+              <div class="info" style="margin-left: [##_local_info_depth_##]px">
+                <a href="[##_local_info_link_##]">[##_local_info_title_##]</a>
+              </div>
+              </s_local_info_rep>
             </div>
+            </s_local>
+            
+            <s_tag>
+            <div class="taglog">
+              <h3>태그</h3>
+              <ul>
+                <s_tag_rep>
+                <li>
+                  <a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a>
+                </li>
+                </s_tag_rep>
+              </ul>
             </div>
-        </div>
-        <div class="container mt-sm-5 mt-3">
-            <div class="row">
-            <div class="col-lg-3">
-                <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                <h3>Elements</h3>
-                <h6 class="text-secondary font-weight-normal pe-3">70+ carefully crafted small elements that come with multiple colors and shapes. These are only a few of them.</h6>
-                </div>
-            </div>
-            <div class="col-lg-9">
-                <div class="row mt-3">
-                  <!-- Buttons color -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Buttons color</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-btn-color" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-btn-color" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+            </s_tag>
+      
+            <s_notice_rep>
+            <div class="entryNotice">
+              <div class="titleWrap">
+                <h2><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h2>
+                <span class="date"> [##_notice_rep_date_##]</span>
+              </div>
+              <div class="article">
+                [##_notice_rep_desc_##]
               </div>
             </div>
-          </div>
-        </div>
-        
-        <!-- Buttons gradient -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Buttons gradient</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-btn-gradient" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-btn-gradient" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Buttons outline -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Buttons outline</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-btn-outline" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-btn-outline" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Buttons sizes -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Buttons sizes</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-btn-size" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-btn-size" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Buttons icons -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Buttons icons</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-btn-icon" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-btn-icon" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Checkbox -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Checkbox</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-check" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-check" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Radios -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Radios</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-radio" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-radio" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Switch simple -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Toggle</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-toggle" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-toggle" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Badges -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Badges</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-badges" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-badges" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Avatars -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Avatars</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-avatar" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-avatar" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Avatar sizes -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Avatar sizes</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-avatar-size" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-avatar-size" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Breadcrumbs -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Breadcrumbs</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-breadcrumbs" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-breadcrumbs" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>  
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Progress bars -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Progress bars</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-progress" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-progress" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-              </div>
-            </div>
-            <div class="row pt-lg-6">
-              <div class="col-lg-3">
-                <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                  <h3>Typography</h3>
-                  <h6 class="text-secondary font-weight-normal pe-3">6+ elements that you need for text manipulation and insertion</h6>
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="row mt-3">
-                  <!-- Typography -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Font Family Serif</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-typo" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-typo" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-              </div>
-            </div>
-            <div class="row pt-lg-6">
-              <div class="col-lg-3">
-                <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                  <h3>Attention Catchers</h3>
-                  <h6 class="text-secondary font-weight-normal pe-3">4+ Fully coded components that popup from different places of the screen</h6>
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="row mt-3">
-                  <!-- Alerts -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Alerts</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-alert" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-alert" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Tooltips -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Tooltips</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-tooltip" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-tooltip" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-        <!-- Popovers -->
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Popovers</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-popover" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-popover" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Modal -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Modal</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-modal" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-modal" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Datepicker -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Datepicker</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-datepicker" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-datepicker" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-              </div>
-            </div>
-        
-            <div class="row pt-lg-6">
-              <div class="col-lg-3">
-                <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                  <h3>Navigation</h3>
-                  <h6 class="text-secondary font-weight-normal pe-3">6+ components that will help go through the pages</h6>
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="row mt-3">
-                  <!-- Navbar light -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Navbar light</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-nav-light" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-nav-light" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Navbar dark -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Navbar dark</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-nav-dark" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-nav-dark" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Navbar blur -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Navbar blur</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-nav-blur" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-nav-blur" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Navbar transparent -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Navbar transparent</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-nav-transparent" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-nav-transparent" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Nav Tabs -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Tabs Simple</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-tabs-simple" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-tabs-simple" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Pagination -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Pagination</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-tabs-simple" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-tabs-simple" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-              </div>
-            </div>
-        
-            <div class="row pt-lg-6">
-              <div class="col-lg-3">
-                <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                  <h3>Input Areas</h3>
-                  <h6 class="text-secondary font-weight-normal pe-3">6+ elements that you need for text manipulation and insertion</h6>
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="row mt-3">
-                  <div class="col-12">
-          <!-- Input simple -->
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Input dynamic</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-inputs-1" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-inputs-1" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-        <!-- input static -->
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Input static</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-input-icon-label" role="tab" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-input-icon-label" role="tab" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-        <!-- input outline -->
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Input outline</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-input-icon-label" role="tab" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-input-icon-label" role="tab" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-          <!-- Input with icon -->
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Input with icon</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-inputs-2" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-inputs-2" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-          <!-- Input disabled -->
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Input disabled</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-inputs-4" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-inputs-4" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-          <!-- Input validation -->
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Inputs validation</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-inputs-3" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-inputs-3" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Form simple -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Form simple</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-forms-simple" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-forms-simple" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-              </div>
-            </div>
-        
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-                  <h3>Design Blocks</h3>
-                  <h6 class="text-secondary font-weight-normal pe-3">A selection of page sections that fit perfectly in any combination</h6>
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="row mt-3">
-                  <!-- Header -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Header</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-header-1" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-header-1" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-                <div class="row mt-3">
-                  <!-- Features -->
-        <div class="col-12">
-          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-            <div class="container border-bottom">
-              <div class="row justify-space-between py-2">
-                <div class="col-lg-3 me-auto">
-                  <p class="lead text-dark pt-1 mb-0">Features</p>
-                </div>
-                <div class="col-lg-3">
-                  <div class="nav-wrapper position-relative end-0">
-                    <ul class="nav nav-pills nav-fill flex-row p-1" role="tablist">
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#preview-features-1" role="tab" aria-controls="preview" aria-selected="true">
-                        <i class="fas fa-desktop text-sm me-2"></i> Preview
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#code-features-1" role="tab" aria-controls="code" aria-selected="false">
-                          <i class="fas fa-code text-sm me-2"></i> Code
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        
-        
-        <section class="py-7">
-        <div class="container">
-            <div class="row">
-            <div class="col-lg-6 mx-auto text-center">
-                <h2 class="mb-0">Trusted by over</h2>
-                <h2 class="text-gradient text-primary mb-3">1,679,477+ web developers</h2>
-                <p class="lead">Many Fortune 500 companies, startups, universities and governmental institutions love Creative Tim's products. </p>
-            </div>
-            </div>
-            <div class="row mt-6">
-            <div class="col-lg-4 col-md-8">
-                <div class="card card-plain">
-                <div class="card-body">
-                    <div class="author">
-                    <div class="name">
-                        <h6 class="mb-0 font-weight-bolder">Nick Willever</h6>
-                        <div class="stats">
-                        <i class="far fa-clock"></i> 1 day ago
-                        </div>
-                    </div>
-                    </div>
-                    <p class="mt-4">"This is an excellent product, the documentation is excellent and helped me get things done more efficiently."</p>
-                    <div class="rating mt-3">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                </div>
-            </div>
-        
-            <div class="col-lg-4 col-md-8 ms-md-auto">
-                <div class="card bg-gradient-primary">
-                <div class="card-body">
-                    <div class="author align-items-center">
-                    <div class="name">
-                        <h6 class="text-white mb-0 font-weight-bolder">Shailesh Kushwaha</h6>
-                        <div class="stats text-white">
-                        <i class="far fa-clock"></i> 1 week ago
-                        </div>
-                    </div>
-                    </div>
-                    <p class="mt-4 text-white">"I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"</p>
-                    <div class="rating mt-3">
-                    <i class="fas fa-star text-white"></i>
-                    <i class="fas fa-star text-white"></i>
-                    <i class="fas fa-star text-white"></i>
-                    <i class="fas fa-star text-white"></i>
-                    <i class="fas fa-star text-white"></i>
-                    </div>
-                </div>
-                </div>
-            </div>
-        
-            <div class="col-lg-4 col-md-8">
-                <div class="card card-plain">
-                <div class="card-body">
-                    <div class="author">
-                    <div class="name">
-                        <h6 class="mb-0 font-weight-bolder">Samuel Kamuli</h6>
-                        <div class="stats">
-                        <i class="far fa-clock"></i> 3 weeks ago
-                        </div>
-                    </div>
-                    </div>
-                    <p class="mt-4">"Great product. Helped me cut the time to set up a site. I used the components within instead of starting from scratch. I highly recommend for developers who want to spend more time on the backend!."</p>
-                    <div class="rating mt-3">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                </div>
-            </div>
-        
-            </div>
-            <hr class="horizontal dark my-5">
-            <div class="row">
-            <div class="col-lg-2 col-md-4 col-6 ms-auto">
-                <img class="w-100 opacity-6" src="./images/logo-apple.svg" alt="Logo">
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-                <img class="w-100 opacity-6" src="./images/logo-facebook.svg" alt="Logo">
-            </div>
-            <div class="col-lg-2 col-md-4 col-6">
-                <img class="w-100 opacity-6" src="./images/logo-nasa.svg" alt="Logo">
-            </div>
-            <div class="col-lg-2 col-md-4 col-6 ms-lg-0 ms-md-auto">
-                <img class="w-100 opacity-6" src="./images/logo-vodafone.svg" alt="Logo">
-            </div>
-            <div class="col-lg-2 col-md-4 col-6 me-md-auto mx-md-0 mx-auto">
-                <img class="w-100 opacity-6" src="./images/logo-digitalocean.svg" alt="Logo">
-            </div>
-            </div>
-        </div>
-        </section>
-        
-        
-        <section class="py-sm-7" id="download-soft-ui">
-        <div class="bg-gradient-dark position-relative m-3 border-radius-xl overflow-hidden">
-            <img src="./images/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-md-0 w-100 opacity-2">
-            <div class="container py-7 postion-relative z-index-2 position-relative">
-            <div class="row">
-                <div class="col-md-7 mx-auto text-center">
-                <h3 class="text-white mb-0">Do you love this awesome</h3>
-                <h3 class="text-white">UI Kit for Bootstrap 5?</h3>
-                <p class="text-white mb-5">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the Design System in HTML. Start a new project or give an old Bootstrap project a new look!</p>
-                <a href="https://www.creative-tim.com/product/material-kit" class="btn btn-primary btn-lg mb-3 mb-sm-0">Download HTML</a>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-            <div class="col-6 mx-auto">
-                <div class="text-center">
-                <h3 class="mt-5 mb-4">Available on these technologies</h3>
-                <div class="row justify-content-center">
-                    <div class="col-lg-2 col-4">
-                    <a href="https://www.creative-tim.com/product/soft-ui-design-system" target="_blank">
-                        <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/bootstrap5.jpg" class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap 5 - Most popular front-end component library">
-                    </a>
-                    </div>
-                    <div class="col-lg-2 col-4">
-                    <a href="javascript:;">
-                        <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/icon-tailwind.jpg" class="img-fluid opacity-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Comming soon">
-                    </a>
-                    </div>
-                    <div class="col-lg-2 col-4">
-                    <a href="javascript:;">
-                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid opacity-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Comming soon">
-                    </a>
-                    </div>
-                    <div class="col-lg-2 col-4">
-                    <a href="javascript:;">
-                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid opacity-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Comming soon">
-                    </a>
-                    </div>
-                    <div class="col-lg-2 col-4">
-                    <a href="javascript:;">
-                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Comming soon">
-                    </a>
-                    </div>
-                    <div class="col-lg-2 col-4">
-                    <a href="javascript:;" target="_blank" >
-                        <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Comming soon">
-                    </a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </section>
-        
-        
-        <section class="my-5">
-            <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-12 my-auto">
-                <h3 class="text-gradient text-primary mb-0">You liked it and</h3>
-                <h3>Want more?</h3>
-                <p class="pe-md-5 mb-4">
-                    Most complex and innovative Design System Made by <a href="https://creative-tim.com/" target="_blank">Creative Tim </a> . Check our latest Premium Bootstrap 5 UI Kit.
-        
-                    Designed for those who like bold elements and beautiful websites. Made of hundred of elements, designed blocks and fully coded pages, Material Kit is ready to help you create stunning websites and webapps.
+            </s_notice_rep>
+      
+            <s_article_protected>
+              <div class="entryProtected">
+                <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+                <span class="date">[##_article_rep_date_##]</span>
+                <p>보호되어 있는 글입니다. 내용을 보시려면 비밀번호를 입력하세요.</p>
+                <p><label for="[##_article_password_##]">비밀번호 ::</label>
+                  <input type="password" maxlength="16" id="[##_article_password_##]" name="[##_article_password_##]" value="" onkeydown="if (event.keyCode == 13)[##_article_dissolve_##]" />
+                  <input type="button" class="submit" value="submit" onclick="[##_article_dissolve_##]" />
                 </p>
-                <div class="github-buttons">
-                    <a href="https://www.creative-tim.com/product/material-kit-pro?ref=index-mk2" target="_blank" class="btn bg-gradient-primary mb-5 mb-sm-0">Upgrade to Pro</a>
-                    <div class="github-button">
-                    <span></span>
-                    </div>
+              </div>
+              </s_article_protected>
+      
+            <s_article_rep>
+            <div class="entry">
+      
+              <div class="titleWrap">
+                <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+                <div class="category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a> </div> 
+                <div class="date">[##_article_rep_date_##]</div>
+                <s_ad_div>
+                <div class="admin">
+                  <a href="[##_s_ad_m_link_##]">수정</a> : 
+                  <a href="#" onclick="[##_s_ad_m_onclick_##]">수정(창으로)</a> | ([##_s_ad_s1_label_##])→
+                  <a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a> | 
+                  <a href="#" onclick="[##_s_ad_t_onclick_##]">관련글(트랙백)</a> | 
+                  <a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a>
                 </div>
-                </div>
-                <div class="col-md-5 col-12 my-auto">
-                <a href="https://www.creative-tim.com/product/material-kit-pro?ref=index-mk2">
-                    <img class="w-100 border-radius-lg shadow-lg" src="https://s3.amazonaws.com/creativetim_bucket/products/46/original/material-kit-pro.jpg?1632843641" alt="Product Image">
+                </s_ad_div>
+              </div>
+      
+              <div class="article">
+                [##_article_rep_desc_##]
+              </div>
+              
+              <s_tag_label>
+              <div class="tagTrail">
+                <span class="tagText">TAG </span> [##_tag_label_rep_##]
+              </div> 
+              </s_tag_label>
+              
+              <div class="actionTrail">
+                <a href="#tb" onclick="[##_article_rep_tb_link_##]">
+                  <s_tb_count> 
+                  트랙백 <span class="cnt">[##_article_rep_tb_cnt_##]</span>개
+                  </s_tb_count>
                 </a>
+      , 
+                <a href="#rp" onclick="[##_article_rep_rp_link_##]">
+                  <s_rp_count>
+                  댓글 <span class="cnt">[##_article_rep_rp_cnt_##]</span>개가 달렸습니다.
+                  </s_rp_count>
+                </a>
+              </div>
+      
+              <s_tb>
+              <div class="trackback">
+                <h3>Trackback Address :: [##_tb_address_##]</h3>
+                <s_tb_container>
+                <ol>
+                  <s_tb_rep>
+                  <li id="[##_tb_rep_id_##]">
+                    <h4>Subject: <a href="[##_tb_rep_url_##]" onclick="window.open(this.href); return false" rel="external nofollow">[##_tb_rep_title_##]</a></h4>
+                    <span class="from">Tracked from <span class="name"> [##_tb_rep_site_##] </span> </span>
+                    <span class="date">[##_tb_rep_date_##]</span>
+                    <a href="#" onclick="[##_tb_rep_onclick_delete_##]; return false" class="delete">&nbsp;<span>삭제</span></a>
+                    <p>[##_tb_rep_desc_##]</p>
+                  </li>
+                  </s_tb_rep>
+                </ol>
+                </s_tb_container>
+              </div>
+              </s_tb>
+              
+              
+              <s_rp>
+              <div class="comment">
+                <h3>댓글을 달아 주세요 </h3>
+                
+                <div class="commentList">
+                  <s_rp_container>
+                  <ol>
+                    <s_rp_rep>
+                    <li id='[##_rp_rep_id_##]'>
+                      <div class="[##_rp_rep_class_##]">
+                        <span class="name">[##_rp_rep_name_##]</span>
+                        <span class="date"> [##_rp_rep_date_##]</span>
+                        <span class="control">
+                          <a href="[##_rp_rep_link_##]" class="address">&nbsp;<span>댓글주소</span></a>
+                          <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">&nbsp;<span>수정/삭제</span></a>
+                          <a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write">&nbsp;<span>댓글쓰기</span></a>
+                        </span>
+                        <p>[##_rp_rep_desc_##]</p>
+                      </div>
+                      <s_rp2_container> 
+                      <ul>
+                        <s_rp2_rep>
+                          <li id='[##_rp_rep_id_##]'>
+                            <div class="[##_rp_rep_class_##]">
+                              <span class="name">[##_rp_rep_name_##]</span>
+                              <span class="date"> [##_rp_rep_date_##]</span>
+                              <span class="control">
+                                <a href="[##_rp_rep_link_##]" class="address">&nbsp;<span>댓글주소</span> </a>
+                                <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">&nbsp;<span>수정/삭제</span></a>
+                              </span>
+                              <p>[##_rp_rep_desc_##]</p>
+                            </div>
+                          </li>
+                        </s_rp2_rep>
+                      </ul>
+                      </s_rp2_container>
+                    </li>
+                    </s_rp_rep>
+                  </ol>
+                  </s_rp_container>
                 </div>
+      
+                <s_rp_input_form>
+                <div class="commentWrite">
+                  <s_rp_member>
+                  <s_rp_guest>
+                  <p>
+                    <input type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" />
+                    <label for="name"> : 이름 </label>
+                  </p>
+                  <p>
+                    <input type="password" maxlength="8" name="[##_rp_input_password_##]" value="[##_rp_admin_check_##]" />블로그 관리자일 경우 password field에 미리 비밀번호를 넣어놓기 위해 만들어 놓았던 치환자였으나, 지금은 사용되지 않음.. (현재는 블로그 관리자일 경우 password field가 나타나지 않음.)
+                    <label for="password"> : 패스워드 </label>
+                  </p>
+                  <p>
+                    <input type="text" class="homepage" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]"/>
+                    <label for="homepage"> : 홈페이지 </label>
+                  </p>
+                    </s_rp_guest>
+                    <p class="secretWrap">
+                    <input type="checkbox" name="[##_rp_input_is_secret_##]" class="checkbox" />
+                    <label for="secret"> 비밀글 </label>
+                  </p>
+                  </s_rp_member>
+                  <p>
+                    <textarea name="[##_rp_input_comment_##]" rows="10" cols="50"></textarea>
+                  </p>
+                  <p>
+                    <input type="submit" value="댓글 달기" onclick="[##_rp_onclick_submit_##]" />
+                  </p>
+                </div> 
+                </s_rp_input_form>
+      
+              </div>
+              </s_rp>
             </div>
-            </div>
-        </section>
-        <!-- Sidebar -->
-        <div id="sidebar">
-
-        </div>
-        <!-- End Sidebar -->
-
-
-
-        <div id="content">
-
-
-
-            <div class="searchList">11. 검색 결과 리스트</div>
-
-            <div class="searchRplist">12. 검색 결과 댓글 리스트</div>
-
-            <div class="locallog">13. 위치 로그</div>
-
-            <div class="taglog">14. 태그 클라우드</div>
-
-            <!-- Guestbook -->
-
-            <div class="guestbook">15. 방명록
-
-            <div class="guestWrite">15-1. 방명록 글쓰기</div>
-
-            <div class="guestList">15-2. 방명록 리스트</div>
-
-            </div>
-
-            <!-- End Guestbook -->
-
-
-
-            <div class="entryNotice">16. 공지사항 글</div>
-
-            <div class="entryProtected">17. 보호 글</div>
-
-
-
-            <div class="entry">18. 글
-
-            <div class="titleWrap">18-1. 글 제목 | 카테고리 | 작성일 | 글 관리</div>
-
-            <div class="article">18-2. 글</div>
-
-            <div class="tagTrail">18-3. 글 관련 태그</div>
-
-            <div class="actionTrail">18-4. 트랙백 | 댓글</div>
-
-            <div class="trackback">18-5. 트랙백</div>
-
-            <div class="comment">18-6. 댓글
-
-                <div class="commentList">18-6-1. 댓글 리스트</div>
-
-                <div class="commentWrite">18-6-2. 댓글 쓰기</div>
-
-            </div>
-
-            </div>
-
-
-            <div class="entry">19. 페이지</div>
-
+            </s_article_rep>
+            <!-- entry close -->
+      
+            <s_paging>
+              <div class="paging">
+                <a [##_prev_page_##] class="[##_no_more_prev_##]">◀ PREV </a>
+                <span class="numbox">
+                  <s_paging_rep>
+                  <a [##_paging_rep_link_##] class="num">[[##_paging_rep_link_num_##]]</a>
+                  </s_paging_rep>
+                </span>
+                <a [##_next_page_##] class="[##_no_more_next_##]">NEXT ▶</a>
+              </div>
+            </s_paging>
+            
+          </div>
         </div>
 
-        <!-- End Contents -->
+        
 
-
-
-
-
-        <div id="footer">
-
-        </div>
-
-        <!-- End Footer -->
-
-
-
-        </div>
-
-        <!-- End Container -->
-    </s_t3>
+  </s_t3>
 </body>
 <footer class="footer pt-5 mt-5">
     <div class="container">
-    <div class=" row">
+    <div class="row">
         <div class="col-md-3 mb-4 ms-auto">
         <div>
             <a href="https://www.creative-tim.com/product/material-kit">
@@ -2195,7 +916,6 @@
         </div>
     </div>
     </div>
-  </s_article_rep>
 </footer>
 
 <!--   Core JS Files   -->

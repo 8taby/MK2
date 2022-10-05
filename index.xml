@@ -2,7 +2,7 @@
 <skin>
   <information>
     <name>MK2</name>
-    <version>0.3.0</version>
+    <version>0.3.1</version>
     <description>
       <![CDATA[웹표준을 준수한 XHTML 기반의 Tistory 기본 스킨입니다.]]>
     </description>
@@ -47,6 +47,63 @@
       <labelLength>27</labelLength>
       <showValue>1</showValue>
     </tree>
+    <skin>
+      <cover>
+        <item>
+          <name>cover-thumbnail-1</name>
+            <label>
+                <![CDATA[ 카테고리 이동 ]]>
+            </label>
+            <description>
+                <![CDATA[ 해당하는 카테고리로 이동할 수 있습니다. ]]>
+            </description>
+        </item>
+        <item>
+          <name>cover-thumbnail-2</name>
+            <label>
+                <![CDATA[ 카테고리 이동 ]]>
+            </label>
+            <description>
+                <![CDATA[ 해당하는 카테고리로 이동할 수 있습니다. ]]>
+            </description>
+        </item>
+        <item>
+          <name>cover-thumbnail-3</name>
+            <label>
+                <![CDATA[ 카테고리 이동 ]]>
+            </label>
+            <description>
+                <![CDATA[ 해당하는 카테고리로 이동할 수 있습니다. ]]>
+            </description>
+        </item>
+        <item>
+          <name>cover-thumbnail-4</name>
+            <label>
+                <![CDATA[ 카테고리 이동 ]]>
+            </label>
+            <description>
+                <![CDATA[ 해당하는 카테고리로 이동할 수 있습니다. ]]>
+            </description>
+        </item><item>
+          <name>cover-list</name>
+            <label>
+                <![CDATA[ 카테고리 이동 ]]>
+            </label>
+            <description>
+                <![CDATA[ 해당하는 카테고리로 이동할 수 있습니다. ]]>
+            </description>
+        </item>
+        <item>
+          <name>cover-event</name>
+            <label>
+                <![CDATA[ 카테고리 이동 ]]>
+            </label>
+            <description>
+                <![CDATA[ 해당하는 카테고리로 이동할 수 있습니다. ]]>
+            </description>
+        </item>
+      </cover>
+    </skin>
     <contentWidth>500</contentWidth>
   </default>
 </skin>
