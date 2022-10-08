@@ -27646,3 +27646,12 @@
   .btn_subsc_my {
     display: inline-block !important;
   }
+
+  .time {
+    font-family: "Pretendard Variable";
+    font-feature-settings: "tnum", "ss03", "cv01";
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    display: none !important;
+  }
