@@ -19,7 +19,7 @@ v0.2.3 [자세히 알아보기](README.md#v023)
 ![image](https://user-images.githubusercontent.com/97948617/193627687-0644c52a-544d-4318-b9cf-76f4e5898bd1.png)
 v0.3.0 [자세히 알아보기](README.md#v030)
 
-[Acta non Verba by a-nv](https://acta-non-verba.tistory.com/)에서 적용된 모습을 확인하실 수 있습니다.
+[Acta non Verba by A-NV](https://acta-non-verba.tistory.com/)에서 적용된 모습을 확인하실 수 있습니다.
 
 ## Structure
 
