@@ -71,14 +71,13 @@ css 분리를 위한 파일이며 skin.html과 마찬가지로 스킨에디터�
 
 ### Font
 
-MK2에서는 Apple 기기에서의 시스템 설정과 비슷한 사용자 경험을 모든 이용자에게 제공하기 위해 [Pretendard](https://github.com/orioncactus/pretendard) 폰트를 사용하고 있습니다. `style.css` 파일에서 `font-family`를 변경하실 수 있습니다.
-
-개발 중 가변 웨이트를 지원하기 위해 `"Pretendard Variable"` 폰트로 변경할 예정입니다.
+MK2에서는 Apple 기기에서의 시스템 설정과 비슷한 사용자 경험을 모든 이용자에게 제공하기 위해 [Pretendard Variable](https://github.com/orioncactus/pretendard) 폰트를 사용하고 있습니다. `style.css` 파일에서 `font-family`를 변경하실 수 있습니다.
 
 ## License
 
-MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경, 통합, 발행, 배포, 재실시, 판매에 대한 제약을 포함한 어떠한 제약 없이 취급할 수 있습니다. 자세한 사항은 [Wikipedia/MIT 허가서](https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C)를 참고하시기 바랍니다.
+MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경, 통합, 발행, 배포, 재실시, 판매에 대한 제약을 포함한 어떠한 제약 없이 취급할 수 있습니다. 자세한 법률적 사항은 [Wikipedia/MIT 허가서](https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C)를 참고하시기 바랍니다.
 
+> 라이선스 모두 보기
 [MK2](https://github.com/8taby/MK2/blob/main/LICENSE) | [Material Kit 2 by Creative Tim](https://github.com/creativetimofficial/material-kit/blob/master/LICENSE.md) | [Pretendard/Pretendard Variable](https://github.com/orioncactus/pretendard/blob/main/LICENSE)
 
 ## Version
@@ -183,6 +182,17 @@ MK2 스킨은 라이선스 및 저작권을 고지하며 사용, 복제, 변경,
 - Footer 부분의 링크를 블로그 운영자로 변경했습니다.
 - 글 제목과 글 본문 카드를 분리했습니다.
 - 글 본문을 그리드에 맞춰 정렬했습니다.
+
+### v0.3.3
+
+**8 Oct 2022**
+
+- 시간을 표시할 때 고정폭 숫자를 사용하도록 설정했습니다.
+- 시간을 표시할 때 가운데에 맞춘 쌍점을 사용하도록 설정했습니다.
+- 스크롤바를 없애는 것을 기본 방침으로 하겠습니다. 아래로 내리기는 불편하지만 분명 이렇게 하는 게 콘텐츠에 집중하는 데 도움이 되겠지요. 오락가락 하는 것 같아 보여도 어느 방법이 가장 완벽할지를 찾는 과정이랍니다.
+- 검색 결과를 표시하는 카드에서 작성 일시와 게시물 제목 사이에 수직선 `|`을 추가했습니다.
+- footer 영역의 모든 아이콘 링크를 바꾸었습니다.
+- footer 영역에 블로그 이름과 블로그 대표 이미지가 출력되도록 하였습니다.
 
 ## Contributer
 
