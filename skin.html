@@ -461,22 +461,62 @@
         <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-7">
           <div class="container">
             <div class="row justify-content-center">
+              <div class="col-lg-8 col-sm-9">
+
+              </div>
+              <div class="col-lg-4 col-sm-3 text-end time">
+                <div class="h4 text-gradient text-primary my-0">
+                  Total Visitors
+                </div>
+                <div class="h4"><span id="state1" countto="[##_count_total_##]">0</span></div>
+                <div><span class="font-weight-bold">Today |</span> <span id="state2" countto="[##_count_today_##]">0</span></div>
+                <div><span class="font-weight-bold">Yesterday |</span> <span id="state3" countto="[##_count_yesterday_##]">0</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-7">
+          <div class="container">
+            <div class="row justify-content-center">
               <s_search>
-              <div class="col-lg-10">
+              <div class="col-lg-10 col-md-8 col-sm-8">
                 <div class="input-group input-group-outline mb-0">
                   <label class="form-label">Search in this blog</label>
                   <input class="form-control" type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }">
                 </div>
               </div>
-              <div class="col-lg-2">
-                <button type="button" class="submit btn bg-gradient-secondary btn-icon mb-0" onclick="[##_search_onclick_submit_##]">
-                  <div class="mx-3"><i class="material-icons opacity-10 me-3 text-md" aria-hidden="true">search</i>Search</div>
+              <div class="col-lg-2 col-md-4 col-sm-4">
+                <button type="button" class="submit btn bg-gradient-secondary btn-icon mb-0 w-100" onclick="[##_search_onclick_submit_##]">
+                  <div><i class="material-icons opacity-10 text-md">search</i>search</div>
                 </button>
               </div>
               </s_search>
             </div>
           </div>
         </div>
+
+        <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-7">
+          <s_list>
+            <div class="container"><div class="row">
+              <div class="col-lg-4 col-sm-3">
+                <h3><span class="color-primary">[##_list_conform_##]</span><br>[##_list_count_##]건</h3>
+              </div>
+              <div class="col-lg-8 col-sm-9">
+                <ol class="time my-0">
+                  <s_list_rep>
+                  <li>
+                    <span class="date">[##_list_rep_regdate_##]</span> |
+                    <a href="[##_list_rep_link_##]">[##_list_rep_title_##]</a>
+                    <span class="cnt">[##_list_rep_rp_cnt_##]</span>
+                  </li>
+                  </s_list_rep>
+                </ol>
+              </div>
+            </div></div>
+          </s_list>
+        </div>
+
 
         <s_article_rep>
         <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-7">
@@ -488,7 +528,15 @@
                   </div>
                   <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
                   <div class="category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a>에 관한 글 <span class="fw-bold">|</span> <span class="time">[##_article_rep_date_##]</span></div>
-                </div>
+
+              <s_ad_div>
+                <span> 
+                  <a href="#" onclick="[##_s_ad_m_onclick_##]">수정</a> | ([##_s_ad_s1_label_##])→
+                  <a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a> | 
+                  <a href="#" onclick="[##_s_ad_t_onclick_##]">관련글(트랙백)</a> | 
+                  <a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a>
+                </span>
+              </s_ad_div>
               </div>
             </section>
         </div>
@@ -504,39 +552,8 @@
               </div>
             </section>
         </div>
-          </s_article_rep>
-
-        <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-7">
-          <s_list>
-            <div class="searchList">
-              <h3>'[##_list_conform_##]'에 해당되는 글 [##_list_count_##]건</h3>
-              <ol>
-                <s_list_rep>
-                <li>
-                  <span class="date time">[##_list_rep_regdate_##]</span> |
-                  <a href="[##_list_rep_link_##]">[##_list_rep_title_##]</a>
-                  <span class="cnt">[##_list_rep_rp_cnt_##]</span>
-                </li>
-                </s_list_rep>
-              </ol>
-            </div>
-            </s_list>
+        </s_article_rep>
             
-            <s_rplist>
-            <div class="searchRplist">
-              <h3>'[##_rplist_conform_##]'에 해당되는 댓글 [##_rplist_count_##]건</h3>
-              <ol>
-                <s_rplist_rep>
-                <li>
-                  <span class="date time">[##_rplist_rep_regdate_##]</span>
-                  <a href="[##_rplist_rep_link_##]">[##_rplist_rep_body_##]</a>
-                  <span class="cnt">[##_rplist_rep_rp_cnt_##]</span>
-                  <span class="name">[##_rplist_rep_name_##]</span>
-                </li>
-                </s_rplist_rep>
-              </ol>
-            </div>
-            </s_rplist>
             
             <s_local>
             <div class="localog">
@@ -591,23 +608,8 @@
               </div>
               </s_article_protected>
       
-            <s_article_rep>
             <div class="entry">
       
-              <div class="titleWrap">
-                <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
-                <div class="category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a> </div> 
-                <div class="date time">[##_article_rep_date_##]</div>
-                <s_ad_div>
-                <div class="admin">
-                  <a href="[##_s_ad_m_link_##]">수정</a> : 
-                  <a href="#" onclick="[##_s_ad_m_onclick_##]">수정(창으로)</a> | ([##_s_ad_s1_label_##])→
-                  <a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a> | 
-                  <a href="#" onclick="[##_s_ad_t_onclick_##]">관련글(트랙백)</a> | 
-                  <a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a>
-                </div>
-                </s_ad_div>
-              </div>
       
               <div class="article">
                 [##_article_rep_desc_##]
@@ -729,7 +731,6 @@
               </div>
               </s_rp>
             </div>
-            </s_article_rep>
             <!-- entry close -->
       
             <s_paging>
@@ -766,8 +767,8 @@
         <div>
             <ul class="d-flex flex-row ms-n3 nav">
             <li class="nav-item">
-                <a class="nav-link pe-1" href="https://www.facebook.com/CreativeTim" target="_blank">
-                <i class="fab fa-facebook text-lg opacity-8"></i>
+                <a class="nav-link pe-1" href="https://linktr.ee/8taby" target="_blank">
+                  <i class="fas fa-compass text-lg opacity-8"></i>
                 </a>
             </li>
 
