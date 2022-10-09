@@ -279,6 +279,7 @@ MK2 스킨 개발에 기여해 주실 분을 찾습니다.
 - [ ] Material Kit 2 Pro로 업그레이드
 - [ ] Category별 badge 색상 변경
 - [ ] 홈 화면 정비
+- [ ] 새 글에 붙는 N 수정
 
 ## Next
 
