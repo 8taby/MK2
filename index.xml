@@ -2,7 +2,7 @@
 <skin>
   <information>
     <name>MK2</name>
-    <version>0.3.4</version>
+    <version>0.3.5</version>
     <description>
       <![CDATA[웹표준을 준수한 XHTML 기반의 Tistory 기본 스킨입니다.]]>
     </description>
@@ -11,7 +11,7 @@
     </license>
   </information>
   <author>
-    <name>a-nv</name>
+    <name>A-NV</name>
     <homepage>https://acta-non-verba.tistory.com/</homepage>
     <email>hama6783@daum.net</email>
   </author>
